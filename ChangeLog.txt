@@ -1,0 +1,13 @@
+V1.1:
+Zmenený štýl ukladania dát, čím sa znížila doba zápisu / čítania o viac ako polovicu
+Opravená chyba, kedy v mene dlžníka / veriteľa mohlo byť číslo.
+Pri každej inicializácií sa odteraz kontroluje funkčnosť vstupného súboru.
+Pridaná kontrola hodnôt dátumu.
+Opravená chyba, kedy IDčka nemuseli byť unikátne.
+Pridaná kontrola súboru v prípade zápisu z inej inštancie.
+Pridaná funkcia na sčítanie sumy všetkých pohľadáviek.
+Pridaná funkcia na načítanie registra z iného súboru.
+
+
+V1.0:
+Prvotná verzia

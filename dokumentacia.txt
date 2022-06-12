@@ -1,0 +1,35 @@
+Register dlžníkov
+=================
+
+Register dlžníkov je program slúžici na jednoduchú úschovu záznamov o dlžníkoch.
+
+Štruktúra registra:
+
+Register zbiera 5 údajov:
+1. ID záznamu - môže byť akýkoľvek (aj nenumerický) kód
+2. Veriteľ - (Obchodné)Meno veriteľa
+3. Dlžník - (Obchodné)Meno dlžníka
+4. Suma -  Suma v eurách !!!BEZ!!! znaku €
+5. Dátum - Dátum vo formáte D/M/R
+
+Program má nasledujúce príkazy,je to veľmi jednoduché:
+
+    
+    Zobrazit cely register - Pomocou príkazu "1" sa zobrazia všetky záznamy v registry.
+    Hladaj dlznika - Pomocou príkazu "2" sa zobrazí možnosť zadania (neprázneho) mena dlžníka, vďaka čomu sa zobrazia všetky záznamy s menom dlžníka.
+	Hladaj veritela - Pomocou príkazu "3" sa zobrazí možnosť zadania (neprázneho) mena veriteľa, vďaka čomu sa zobrazia všetky záznamy s menom veriteľa.
+	Hladaj podla ID - Pomocou príkazu "4" sa zobrazí možnosť zadania (neprázneho) identifikátora záznamu, vďaka čomu sa vyhľadá záznam tomuto identifikátoru prislúchajúci.
+	Vloz pohladavku - Pomocou príkazu "5" je možné vložiť záznam do registra. Je to veľmi jednoduché !
+	Pocet vsetkych pohladaviek - Príkaz "6" vráti počet všetkých pohľadaviek v registry.
+	Sucet vsetkych pohladaviek - Príkaz "6" vráti súčet všetkých pohľadaviek v registry.
+	Zmaz register - Príkaz "8" umožňuje vymazať všetky záznamy v registry. Register predsalen ostane vyzalohovaný v súbore 'evidencia_zaloha.txt'.
+	Vloz register - Príkaz "9" umožňuje nahrat register zo suboru.
+	Odchod - Príkaz "8" alebo "exit" umožní bezpečné ukončenie programu.
+	Menu - Príkaz "menu" umožnuje zobraziť všetky príkazy.
+
+
+
+Licencia
+--------
+
+GPL-2.0-only or GPL-2.0-or-later
