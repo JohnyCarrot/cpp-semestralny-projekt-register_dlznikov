@@ -1,4 +1,4 @@
-#C++ Register dlžníkov - semestrálny projekt
+# C++ Register dlžníkov - semestrálny projekt
 
 Hodnotenie: 35 zo 65
 
